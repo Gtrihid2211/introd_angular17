@@ -1,1 +1,26 @@
-<h1>Hola mundo!!!</h1>
+
+<app-user></app-user>
+
+<div>
+  <h1>¿Que me parece Angular</h1>
+  <article>
+    <p>Angular es un framework de JavaScript de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.</p>
+
+    <p>La biblioteca AngularJS lee el HTML que contiene atributos de las etiquetas personalizadas adicionales, entonces obedece a las directivas de los atributos personalizados, y une las piezas de entrada o salida de la página a un modelo representado por estándar variables JavaScript. Los valores de las variables de JavaScript se pueden establecer manualmente por el código, o recuperado de recursos JSON estáticos o dinámicos.</p>
+
+    <p>Según el sitio web oficial, AngularJS se define como un framework de JavaScript estructural de código abierto, basado en el patrón Modelo–Vista–Controlador (MVC), el cual se utiliza para crear y mantener aplicaciones web de una sola página.</p>
+
+    <p>AngularJS es un framework de JavaScript de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.</p>
+  </article>
+
+  @defer (on viewport){  
+    <app-comments></app-comments>
+  }
+  @placeholder {
+    <p>Futuros Comentarios</p>
+  }
+  @loading (minimum 2s){
+    <p>Cargando...</p>
+  }
+  
+</div>
